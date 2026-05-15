@@ -1,40 +1,38 @@
-🪨📄✂️ Stone Paper Scissors - Modern Edition
-A sleek, interactive, and responsive web-based Rock Paper Scissors game where players can test their luck against a randomized AI opponent. This project features a high-end "Glassmorphism" UI with smooth CSS animations.
+# 🪨📄✂️ Stone Paper Scissors Pro
 
-🚀 Features
-Intelligent AI: A randomized computer logic engine that provides a fresh challenge every round.
+A sleek, interactive, and modern web-based Rock Paper Scissors game. This project features a high-end "Glassmorphism" UI, dynamic AI logic, and custom CSS animations for an engaging user experience.
 
-Premium UI/UX: Designed with a modern blue gradient background and semi-transparent "glass" containers.
+## 🚀 Features
 
-Dynamic Animations: Includes custom "Shake" animations during play and "Bounce/Wobble" effects for game results.
+* **Modern Glassmorphism UI**: A vibrant blue gradient background with semi-transparent "glass" containers and backdrop-blur effects.
+* **Animated Battle Stage**: Dedicated display area where the user and computer moves are revealed with smooth transitions.
+* **Suspenseful Gameplay**: Features a "shaking" hand animation during the AI's "thinking" phase to build excitement.
+* **Result Feedback**: Custom CSS animations (Bounce for Victory, Wobble for Defeat) triggered based on the game outcome.
+* **Real-time Scoreboard**: Tracks and displays user and computer scores dynamically throughout the session.
+* **Responsive Design**: Fully functional and visually appealing across different screen sizes.
 
-Real-time Scoreboard: Tracks and displays player and computer scores instantly.
+## 🕹️ How to Play
 
-Interactive Messaging: Provides real-time feedback on wins, losses, and draws with color-coded status bars.
+1.  **Select Your Move**: Click on one of the circular icons (Rock, Paper, or Scissors) at the bottom.
+2.  **Wait for the AI**: The battle stage will show shaking hands while the computer "decides" its move.
+3.  **Check the Result**: After 1 second, the moves are revealed.
+    * **Victory**: The message bar turns green and bounces.
+    * **Defeat**: The message bar turns red and wobbles.
+    * **Tie**: The message bar stays neutral for a rematch.
+4.  **Score**: Watch your score increase as you defeat the computer!
 
-🕹️ How to Play
-Launch: Open the index.html file in any modern web browser.
+## 🛠️ Technology Stack
 
-Select: Click on one of the three hand icons (Rock, Paper, or Scissors).
+* **HTML5**: Semantic structure for the game interface.
+* **CSS3**: Advanced styling using Flexbox, CSS Variables, and Keyframe animations.
+* **JavaScript (ES6+)**: Core game engine handling randomized AI logic, DOM manipulation, and asynchronous reveal timing.
 
-Reveal: The game will generate a computer move and display the result after a brief animation.
+## 📂 Project Structure
 
-Win: Check the message bar to see if you won, lost, or drew, and watch your score update!.
-
-🛠️ Tech Stack
-Frontend: HTML5 for semantic structure.
-
-Styling: CSS3 using Flexbox, Backdrop-filters, and Keyframe animations.
-
-Logic: Vanilla JavaScript (ES6) for DOM manipulation and game mechanics.
-
-📂 File Structure
-index.html: Main game structure.
-
-style.css: Modern styling and animations.
-
-app.js: Game logic and AI engine.
-
-Rock.png, Paper.png, Scissor.png: Custom high-quality game assets.
-
-Author: Paritala Sai Raghu
+```text
+├── index.html      # Main game structure & Battle Stage
+├── style.css       # Animations, Glassmorphism UI, & Layout
+├── app.js          # AI logic, score tracking, & event handling
+├── Rock.png        # Game asset
+├── Paper.png       # Game asset
+└── Scissor.png     # Game asset
